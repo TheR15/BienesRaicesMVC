@@ -1,0 +1,27 @@
+{
+    "name": "rodri/bienesraices_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rodri\\BienesraicesInicio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TheR15",
+            "email": "rodrigochg17@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^3.9",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}

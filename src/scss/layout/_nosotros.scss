@@ -1,0 +1,11 @@
+.nosotros{
+    @include grid(2,2rem);
+}
+
+.contenido-nosotros{
+    blockquote{
+        font-size: 2.5rem;
+        font-weight: $bold;
+        margin: 0;
+    }
+}
